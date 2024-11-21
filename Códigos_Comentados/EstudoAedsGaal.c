@@ -1,8 +1,23 @@
 #include <stdio.h>
 #include <string.h>
 
-void painel(){
+void painelVet(){
 printf ("--------------------------------------------\n----------Estudo de Gaal (Vetores)----------\n--------------------------------------------\n");
+}
+
+void escolhas(){
+    char escolha;
+    printf ("Escolha o conteudo a ser abordado:\n");
+    printf ("V-Vetores\nR-Retas\nP-Planos\nC-Conicas\nOpcao: ");
+    scanf("%c",&escolha);
+    getchar();
+    if (escolha=='V'||escolha=='v'){
+        painelVet();
+    }else{
+        printf ("Em Breve\n");
+        printf ("--------------------------------------------\n");
+        return escolhas();
+    }
 }
 
 void procedPadrao(double* mat, int quant){
@@ -63,7 +78,7 @@ int main (){
     int quantidade;
     char operacao={'O'};
     
-    painel();
+    escolhas();
 
     while (operacao!='F'&&operacao!='f'){
         printf ("\nDigite a quantidade de vetores (maximo = 3): ");
