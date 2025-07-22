@@ -1,0 +1,2 @@
+Alguns exercícios possuem Dicas para a criação de funções auxiliares, mas decidi não realizar para evitar que o código fique mais confuso, já que cada exercício está no mesmo arquivo.c, em métodos.
+Algumas funções auxiliares que foram exigidas nas questões, fora das Dicas, foram implementadas.

@@ -1,0 +1,1 @@
+Os códigos 0219.c e 0220.c são iguais, pois os dois atendem as questões 9 e 10 corretamente
